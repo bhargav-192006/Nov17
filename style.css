@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body,h1,h2,h3,h4,h5,p{margin:0px
+}
+.container{width: 100%;
+    max-width: 100%;
+    padding: 0 120px;
+    box-sizing: border-box;display:flow-root;
+} 
+.header{    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.header .logo {    width: 100%;
+    max-width: 9%;
+    float: left;
+}
+.header .logo img{width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.header .menu{    width: 100%;
+    max-width: 40%;
+    float: left;    margin-left: 365px;
+    padding: 15px;}
+.header .menu ul{    padding: 0px;
+    margin: 0px;
+    float: left;}
+.header .menu ul li{list-style-type: none;
+    float: left;}
+.header .menu ul li a{    text-decoration: none;    color: black;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;    font-family: 'Space Grotesk';
+}
+.header .button{    width: 100%;
+    max-width: 10%;
+    float: right;
+    margin-top: 15px;
+}
+.header .button a{    text-decoration: none;
+    color: white;
+    background-color: #006c6e;
+    border: 1px solid #006c6e;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 14px 20px;
+}
+.header .button a:hover{background-color:black;
+}
+.section-1 .image{    width: 100%;
+    max-width: 100%;
+    display: flow-root;
+    background-image:url("./image1.png");background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.section-1 h2{   
+    color: white;
+    font-size: 48px;
+        margin: 0px;
+    font-family: 'Space Grotesk';
+    text-align: center;
+    width: 100%;padding-top: 100px;
+}
+.section-1 p {color:white;font-size:18px;  
+    text-align: center;
+    width: 100%;    margin: 0px;
+    font-family: 'Space Grotesk';
+} 
+.section-1 p a {color:#006c6e;font-size:18px;text-decoration:none;
+}
+.section-1 p a i{    font-size: 25px;
+}
+.section-2 {    padding: 80px 0px;display:flow-root;}
+.section-2 .image{width: 100%;float: left;
+    max-width: 50%;}
+.section-2 .image img {object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+}
+.section-2 .text{    width: 100%;
+    max-width: 40%;
+    float: right;}
+.section-2 .text h4{font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #006C6E;
+    font-family: "Space Grotesk", sans-serif;
+margin: 0px;
+}
+.section-2 .text h2{    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 17px;}
+.section-2 .text p{    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #6E6E6E;
+    font-family: "Space Grotesk", sans-serif;
+       margin: 0px 0px 25px;}
+.section-2 .text .option p{    font-family: "Space Grotesk", sans-serif;margin-left:35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.section-2 .text .option h4 i{margin-right:10px;
+}
+.section-3 {
+    display:flow-root;
+}
+.section-3 .text{    width: 100%;
+    max-width: 40%;
+    float: left;padding: 110px 0px;
+}
+.section-3 .text h4{    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #006C6E;
+    font-family: "Space Grotesk", sans-serif;
+}
+.section-3 .text h2{    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+.section-3 .text p{    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #6E6E6E;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 25px;
+}
+.section-3 .image{width: 100%;
+    float: right;
+    max-width: 50%;
+}
+.section-3 .image img{object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 751px;
+    border-radius: 45px;
+}
+.section-4 {    padding: 80px 0px;
+    display: flow-root;
+}
+.section-4 .image{    width: 100%;
+    float: left;
+    max-width: 50%;
+}
+.section-4 .image img{    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 875px;
+    border-radius: 45px;
+}
+.section-4 .text{    width: 100%;
+    max-width: 40%;
+    float: left;
+    padding: 150px 80px;
+}
+.section-4 .text h4{    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #006C6E;
+    font-family: "Space Grotesk", sans-serif;
+}
+.section-4 .text h2{    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+.section-4 .text p{    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #6E6E6E;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 25px;
+}
+.section-4 .text .list ul{padding: 0px;
+}
+.section-4 .text .list ul li{    list-style-type: none;
+}
+.section-4 .text .list ul li p i{    color: #006C6E;
+}
+.section-4 .text .list ul li p span{color: #006C6E;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-5 .text{width: 100%;
+    max-width: 40%;
+    float: left;
+    padding: 150px 0px;
+}
+.section-5 .text h4{    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #006C6E;
+    font-family: "Space Grotesk", sans-serif;
+}
+.section-5 .text h2{font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+.section-5 .text p{    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #6E6E6E;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 25px;
+}
+.section-5 .text h3{    font-family: "Space Grotesk", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-5 .text .list ul{
+    padding: 0px;
+}
+.section-5 .text .list ul li{    list-style-type: none;
+}
+.section-5 .text .list ul li p i{    color: #006C6E;
+}
+.section-5 .text .list ul li p span{color: #006C6E;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-5 .image{    width: 100%;
+    float: right;
+    max-width: 50%;
+}
+.section-5 .image img{    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 949px;
+    border-radius: 45px;
+}
+.section-6{    padding: 50px 0px;
+}
+.section-6 .image{width: 100%;
+    float: left;
+    max-width: 50%;
+}
+.section-6 .image img{    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 1053px;
+    border-radius: 45px;
+}
+.section-6 .text{width: 100%;
+    max-width: 40%;
+    float: right;
+    padding: 210px 80px;
+}
+.section-6 .text h4{font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #006C6E;
+    font-family: "Space Grotesk", sans-serif;
+}
+.section-6 .text h2{font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+.section-6 .text p{font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #6E6E6E;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 10px;
+}
+.section-6 .text h3{    font-family: "Space Grotesk", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-6 .text .list ul{
+    padding: 0px;
+}
+.section-6 .text .list ul li{    list-style-type: none;
+}
+.section-6 .text .list ul li p i{    color: #006C6E;
+}
+.section-6 .text .list ul li p span{color: #006C6E;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-7 .text{    width: 100%;
+    max-width: 40%;
+    float: left;
+    padding: 150px 0px;
+}
+.section-7 .text h4{    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #006C6E;
+    font-family: "Space Grotesk", sans-serif;
+}
+.section-7 .text h2{    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    width: 100%;
+    max-width: 75%;
+}
+.section-7 .text p{    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #6E6E6E;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 10px;
+}
+.section-7 .image{    width: 100%;
+    float: right;
+    max-width: 50%;
+}
+.section-7 .image img{    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 661px;
+    border-radius: 45px;
+}
+.section-8 {padding: 50px 0px;
+}
+.section-8 .image{width: 100%;
+    float: left;
+    max-width: 50%;
+}
+.section-8 .image img{    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 661px;
+    border-radius: 45px;
+}
+.section-8 .text{width: 100%;
+    max-width: 40%;
+    float: right;
+    padding: 150px 0px;
+}
+.section-8 .text h4{font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #006C6E;
+    font-family: "Space Grotesk", sans-serif;
+}
+.section-8 .text h2{    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    width: 100%;
+    max-width: 75%;
+}
+.section-8 .text p{font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #6E6E6E;
+    font-family: "Space Grotesk", sans-serif;
+    margin-bottom: 10px;
+}
